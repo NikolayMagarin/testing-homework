@@ -1,20 +1,18 @@
 {
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node"
+  },
+  "include": ["src"],
+  "ts-node": {
     "compilerOptions": {
-        "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true,
-        "noImplicitAny": true,
-        "module": "es6",
-        "target": "es5",
-        "allowJs": true,
-        "jsx": "react",
-        "moduleResolution": "node"
-    },
-    "include": [
-        "src"
-    ],
-    "ts-node": {
-        "compilerOptions": {
-            "module": "CommonJS"
-        }
+      "module": "CommonJS"
     }
+  }
 }
